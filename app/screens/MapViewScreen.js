@@ -12,7 +12,6 @@ function MapViewScreen({ route, navigation }) {
   const ASPECT_RATIO = width / height;
   const LATITUDE_DELTA = 0.0922;
   const LONGITUDE_DELTA = LATITUDE_DELTA * ASPECT_RATIO;
-  const GOOGLE_MAPS_APIKEY = "AIzaSyC331MS9hMAdH-FUCoueWMgIOas2ei5Udo";
   const location = useLocation();
   console.log(listing);
   return (
